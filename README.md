@@ -28,3 +28,11 @@ Then End2
 Else Go to the check point
 End1 -- pay U$1000 + no drive delay 10*10
 End2 -- God night
+I dont decided what i gonna use /getMaximum range or /the follow one 
+getMaximumRange
+
+private SensorManager sensorManager;
+private Sensor sensor;
+...
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
