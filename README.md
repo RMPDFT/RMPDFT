@@ -19,10 +19,12 @@ You can click the Preview link to take a look at your changes.
 9. Call de defensor 
 10. Check 
 11. Sentence 
-12. End
+12. End1
 
 If check = 0 
 Then send to Judge the question
 If  the Judge check = 0
-Then End
+Then End2
 Else Go to the check point
+End1 -- pay U$1000 + no drive delay 10*10
+End2 -- God night
